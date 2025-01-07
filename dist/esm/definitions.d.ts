@@ -1,4 +1,4 @@
-import type { PluginListenerHandle } from '@capacitor/core';
+import type { PluginListenerHandle } from "@capacitor/core/types/definitions";
 export interface IntercomPlugin {
     loadWithKeys(options: {
         appId?: string;

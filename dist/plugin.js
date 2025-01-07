@@ -2,7 +2,7 @@ var capacitorIntercom = (function (exports, core) {
     'use strict';
 
     const Intercom$1 = core.registerPlugin('Intercom', {
-        web: () => Promise.resolve().then(function () { return web; }).then(m => new m.IntercomWeb()),
+        web: () => Promise.resolve().then(function () { return web; }).then((m) => new m.IntercomWeb()),
     });
 
     class IntercomWeb extends core.WebPlugin {
